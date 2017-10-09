@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+body {
+    font-family: Mntserrat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 4px dashed #2E8593;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    margin: 20px 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: none;
+}
+
+.active{
+    border-left: 2px #2E8593 solid;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.menu{
+    padding-top: 10px;
+}
+
+.image{
+    width: 100%;
+}
+
+.aktualności{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+ footer {
+      background-color: gray;
+      padding: 25px;
+    }
+
+.ask{
+    display: block;
+    width: 70%;
+    margin: auto;
+    background: #F2F2F2;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.question{
+    width: 50px;
+    height: 50px;
+    background: #2E8593; 
+    position: absolute;
+    border-radius: 100%;
+    z-index: 999;
+    margin-left: 35px;
+    margin-top: -25px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 28px;
+}
+
+.white-font{
+    color: white;
+}
+
+.wyd-1{
+     display: block;
+    width: 70%;
+    margin: auto;
+    background: #83B3BC;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.wyd-2{
+     display: block;
+    width: 70%;
+    margin: auto;
+    background: #83B3BC;
+    padding: 10px;
+}
+
+.dash{
+    border-bottom: 3px dashed white;
+}
+
+.news{
+    background: #F2F2F2;
+    padding: 30px;
+    min-height: 600px;
+}
+
+.contact{
+    background: #83B3BC;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.left{
+    border-right: 3px dashed white;
+    min-height: 200px;
+}
+
+.right{
+    border-left: 1px dashed white;
+    min-height: 200px;
+}
